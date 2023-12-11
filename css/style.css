@@ -82,10 +82,10 @@ body {
 
 .teHead {
     color: #fff;
-    font-size: 21px;
+    font-size: 23px;
     margin-left: 40px;
     padding-top: 12px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .isi {
@@ -168,10 +168,18 @@ body {
     text-align: center;
 }
 
+.footer2 {
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: 400;
+    color: #eeeaeab9;
+    text-align: left;
+}
+
 .responsive {
-    width: 100%;
+    width: auto;
     height: auto;
-  }
+}
 
 @media screen and (max-width: 600px) {
     .teHead {font-size: 15px;}
